@@ -5,6 +5,7 @@ import {
 
 import TabHome from './screens/TabHome';
 import TabMap from './screens/TabMap';
+import TabGallery from './screens/TabGallery';
 
 const Tabs = createBottomTabNavigator(
   {
@@ -16,11 +17,12 @@ const Tabs = createBottomTabNavigator(
         }
       }
     }),
-    TabMap: createStackNavigator({
-      Map: {
-        screen: TabMap,
+    TabMap: TabMap,
+    TabGallery: createStackNavigator({
+      Gallery: {
+        screen: TabGallery,
         navigationOptions: {
-          title: 'TabMap'
+          title: 'Gallery'
         }
       }
     })
