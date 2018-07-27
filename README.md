@@ -1,4 +1,4 @@
-## Emmbedded Native View to React Native
+## Embed Native View to React Native
 
 ### Documents:
 
