@@ -4,4 +4,6 @@
 
 - https://facebook.github.io/react-native/docs/native-components-ios
 
+- https://facebook.github.io/react-native/docs/native-components-android
+
 ### Demo
